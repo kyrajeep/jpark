@@ -1,3 +1,3 @@
-# kyrajpark.github.io
+# Jee Won (Kyra) Park
 
-My GitHub Page to share my work.
+Welcome to my homepage! I will be uploading projects, blog articles, homework, and anything that is relevant to robotics research I want to share. :)
