@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: "greens.jpg";
+  min-height: 100%;
+}
+</style>
+<body>
+
+<!-- Sidebar with image 
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:30%">
+  <div class="bgimg">Portfolio</a></div>
+</nav>
+-->
+
+<!-- Navigation Bar -->
+<div class="w3-bar w3-black">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#" class="w3-bar-item w3-button">About</a>
+  <a href="#" class="w3-bar-item w3-button">Art Store</a> <!-- Link to Art Store -->
+  <a href="#" class="w3-bar-item w3-button">Portfolio</a>
+  <a href="#" class="w3-bar-item w3-button">Contact</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:5%">
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Jee Won (Kyra) Park</b></h1>
+    <p>PhD student in Computer Science at Simon Fraser University</p>
+    <img src="greens.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:70%;margin:auto;">
+    <img src="greens.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <p><a href="http://github.com/kyrajeep" target="_blank" class="w3-hover-text-green">GitHub</a></p>
+    <p><a href="http://linkedin.com/in/jee-won-kyra-park" target="_blank" class="w3-hover-text-green">LinkedIn</a></p>
+    <p><a href="https://twitter.com/JeeWonKyra" target="_blank" class="w3-hover-text-green">Twitter</a></p>
+    <p><a href="Resume Park.pdf" target="_blank" class="w3-hover-text-green">Resume</a></p>
+
+  </header>
+
+  <!-- Art Store Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="artstore">
+    <h2 class="w3-text-grey">Art Store</h2>
+    <hr class="w3-opacity">
+    <!-- Your art pieces with prices, dimensions, and PayPal buttons -->
+  </div>
+  <!-- End Art Store Section -->
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <!-- Existing about section code -->
+  </div>  
+
+  <!-- Portfolio -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <!-- Existing portfolio section code -->
+  </div>
+
+  <!-- Existing sections like skills, contact, footer -->
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <!-- Footer -->
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
