@@ -17,8 +17,11 @@
             border-radius: 5px;
         }
         .art-piece {
+            width: 25%; /* Set width to 25% to display four images side by side */
+            float: left; /* Float the art pieces to make them display side by side */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+            padding: 10px;
             margin-bottom: 20px;
-            padding: 20px;
             background-color: #f9f9f9;
             border: 1px solid #ddd;
             border-radius: 5px;
@@ -27,7 +30,7 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            max-width: 50%;
+            max-width: 100%;
             height: auto;
         }
         .art-piece p {
@@ -36,15 +39,21 @@
         form {
             margin-top: 10px;
         }
+        @media (max-width: 768px) {
+          /* Adjust layout for smaller screens */
+          .art-piece {
+              width: 50%; /* Set width to 50% for two images per row on smaller screens */
+          }
+      }
     </style>
 </head>
 <body>
 
-  <!-- Introduction Section -->
+  <!-- Introduction Section 
   <div class="introduction">
     <p>After starting in a casual after-school class in Korea, I was honored with a prestigious award from the Minister of Culture by the age twelve. Now painting with oils and offering prints, each piece is a prayer for joy in its new home. Explore my journey from childhood hobby to passion on canvas.</p>
   </div>
-  <!-- End Introduction Section -->
+   End Introduction Section -->
 
   <!-- Art Store Section -->
   <div class="w3-content w3-padding-large" id="artstore">
